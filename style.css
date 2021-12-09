@@ -1,0 +1,61 @@
+.fixed-header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #fff;
+}
+header{
+    z-index: 1;
+    position: relative;
+    padding-top: 20px;
+}
+.nav-col {
+    float: left;
+    width: 75%;
+}
+.contact-info{
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+.logo {
+    float: left;
+    width: 30%;
+}
+.menu {
+    float: right;
+    width: 70%;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 22px;
+    display: inline-block;
+    color: #4d4d4d;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    color: #f47514;
+}
+
+.contact-info a {
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-top: 23px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+.contact-info a:hover {
+    color: #f47514;
+}
